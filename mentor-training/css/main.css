@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,800');
+
+.bg-red {
+    background-color: #da291c;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.fg-red {
+    color: #da291c;
+}
+
+.fg-white {
+    color: #ffffff;
+}
+
+.logo-large {
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.center-bar {
+    padding: 4em;
+    margin: 0.5em;
+}
+
+.header {
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+}
+
+.center-column-60 {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+
+.l-align {
+    text-align: left;
+}
+
+.indent-1 {
+    text-indent: 1em;
+}
+
+.pad-top-1 {
+    padding-top: 1em;
+}
+
+b {
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.2em;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2.6em;
+    padding: 0.5em 0 0.1em;
+    margin: 0;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tl {
+    width: 80%;
+    margin: auto;
+}
+
+.tl-item {
+    padding: 2em 3em;
+    position: relative;
+    /* color: rgba(black, 0.7); */
+    border-left: 2px solid white;
+}
+
+.tl-item.fg-red {
+    border-left: 2px solid #da291c;
+}
+
+.tl-item > p {
+    font-size: 2em;
+    margin: 0;
+}
+
+.tl-item::before {
+    font-family: 'Open Sans', sans-serif;
+    content: attr(date);
+    position: absolute;
+    left: 2em;
+    top: 0.75em;
+    font-weight: 600;
+    display: block;
+    font-size: 1.6em;
+}
+
+.tl-item::after {
+    width: 1em;
+    height: 1em;
+    display: block;
+    top: 1.75em;
+    position: absolute;
+    left: -0.7em;
+    border-radius: 1em;
+    content: '';
+    border: 2px solid white;
+    background: #da291c;
+}
+
+.tl-item.fg-red::after {
+    border: 2px solid #da291c;
+    background: white;
+}
