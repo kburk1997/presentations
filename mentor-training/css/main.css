@@ -51,6 +51,10 @@
     padding-top: 1em;
 }
 
+.pad-top-half {
+    padding-top: 0.5em;
+}
+
 b {
     font-weight: 600;
 }
